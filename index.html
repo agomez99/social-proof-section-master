@@ -17,6 +17,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+  
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -29,6 +30,7 @@
     body {
       font-family: 'Spartan', sans-serif;
       width: 100%;
+      padding: 5% 10%;
           }
    h1{
        font-family: 'Spartan', sans-serif;
@@ -38,10 +40,20 @@
       position: relative;
       margin:0% 0% 0% 0%;
     }
+    #top {
+        text-align: left;
+        color:hsl(303, 10%, 53%);
+        font-size: 17px;
 
+      }
+
+    #products{
+      margin-right: 5%;
+    }
     .card-title {
       color: white;
       margin-left: 8%;
+      margin-bottom: 10%;
     }
 
     .card-text {
@@ -49,7 +61,7 @@
     }
 
     .card-body {
-      padding: 30px;
+      padding: 40px;
       border-radius: 10px;
       background-color: hsl(300, 43%, 22%);
       margin: 10px;
@@ -57,16 +69,17 @@
 
 
     .card-body2 {
-      padding: 30px;
+      padding: 20px 20px;
       border-radius: 10px;
       margin: 10px;
       display: flex;
+      font-size: 15px;
         font-family: Spartan;
         font-weight:bolder;
     }
 
     img {
-      height: 60px;
+      height: 50px;
       border-radius: 50%;
     }
 
@@ -74,7 +87,9 @@
       height: 25px;
       padding: 5px;
     }
-
+    .starsdiv{
+      margin-left:5%;
+    }
     #topcards {
       display: flex;
     }
@@ -83,17 +98,17 @@
       display: flex;
     }
     #card1{
-      width:80%;
+      width:90%;
     }
     #card2 {
       margin-left: 5%;
-      width:80%;
+      width:90%;
 
     }
 
     #card3 {
       margin-left: 10%;
-      width:80%;
+      width:90%;
 
     }
 #lastcard{
@@ -106,6 +121,9 @@
     }
     html{
       display: flex;
+    }
+    #first{
+      width:100%;
     }
       .card {
         margin-left: 0%;
@@ -198,8 +216,8 @@
 <body>
   <div class="row">
       <div class="col-lg-6 " id="top">
-        <div style="padding: 10px; display: block;">
-          <h1 style="font-size:35px; font-family: Spartan; color: hsl(300, 43%, 22%)">
+        <div style="padding: 10px; display: block;" id="products" >
+          <h1 id ="first" style=" width:80%; font-size:35px; font-family: Spartan; color: hsl(300, 43%, 22%)">
             10,000+ of our users love our products.
           </h1>
           <br> 
@@ -218,7 +236,7 @@
             <img class="star" src="images/icon-star.svg" />
             <img class="star" src="images/icon-star.svg" />
             <img class="star" src="images/icon-star.svg" />
-            <div>
+            <div class="starsdiv">
               <p>Rated 5 Stars in Reviews</p>
             </div>
 
@@ -232,8 +250,11 @@
             <img class="star" src="images/icon-star.svg" />
             <img class="star" src="images/icon-star.svg" />
             <img class="star" src="images/icon-star.svg" />
-            <p>Rated 5 Stars in Report Guru
-            </p>
+            <div class="starsdiv">
+              <p>Rated 5 Stars in Report Guru
+              </p>
+            </div>
+
           </div>
         </div>
 
@@ -244,9 +265,12 @@
             <img class="star" src="images/icon-star.svg" />
             <img class="star" src="images/icon-star.svg" />
             <img class="star" src="images/icon-star.svg" />
-            <p>
-              Rated 5 Stars in BestTech
-            </p>
+            <div class="starsdiv">
+              <p>
+                Rated 5 Stars in BestTech
+              </p>
+            </div>
+ 
           </div>
         </div>
       </div>
