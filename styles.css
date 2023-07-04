@@ -1,0 +1,220 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  width: 100%;
+  padding: 10% 10% 5% 10%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: 48px;
+  color: hsl(300, 43%, 22%);
+  width: 70%;
+}
+
+.header-body {
+  color: hsl(300, 43%, 22%);
+  width: 60%;
+}
+
+.profile {
+  display: flex;
+}
+
+.card-title {
+  color: white;
+  margin-left: 8%;
+  margin-bottom: 10%;
+  font-size: 0.8em;
+}
+
+.card-text {
+  color: white;
+}
+
+.card-body {
+  padding: 40px;
+  border-radius: 10px;
+  background-color: hsl(300, 43%, 22%);
+  font-size: 0.9em;
+}
+
+img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.star {
+  height: 25px;
+  padding: 5px;
+}
+
+.starsdiv {
+  margin-left: 5%;
+}
+
+
+.rating-text {
+  margin: 0%;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.rating-col {
+  margin-top: 10%;
+}
+
+.rating-card {
+  width: 70%;
+  height: 60px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  padding: 3%;
+}
+
+.rating-body {
+  display: flex;
+}
+
+#star-2 {
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+#star-3 {
+  margin-left: 20%;
+  margin-top: 3%;
+
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  width: 22rem;
+}
+
+#profile-2 {
+  margin-top: 5%;
+  margin: 2% 2% 0% 2%;
+}
+
+#profile-3 {
+  margin-top: 4%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0%;
+  }
+
+  html {
+    display: flex;
+  }
+
+  .header {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .header-body {
+    width: 100%;
+    text-align: center;
+  }
+
+  .row {
+    display: block;
+
+  }
+
+  .cards {
+    display: block;
+    margin-top: 5%;
+  }
+
+  .card-body {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 34px;
+  }
+
+  .card-title {
+    line-height: 20px;
+    font-size: 1em;
+  }
+
+  .card-text {
+    margin: 0%;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .cards {
+    display: block;
+  }
+
+  .profile-card {
+    width: auto;
+    margin: 5%;
+
+  }
+
+  #profile-2 {
+    margin-top: 5%;
+    margin: 5%;
+  }
+
+  #profile-3 {
+    margin-top: 0%;
+  }
+
+  .rating-text {
+    margin: 0%;
+    font-weight: 900;
+    font-size: 14px;
+  }
+
+  .rating-col {
+    margin-top: 0%;
+  }
+
+  .rating-card {
+    width: 100%;
+    height: 80px;
+    padding: 3%;
+  }
+
+  .rating-body {
+    display: block;
+    text-align: center;
+
+  }
+
+  #star-2 {
+    margin-left: 0%;
+    margin-top: 3%;
+  }
+
+  #star-3 {
+    margin-left: 0%;
+    margin-top: 3%;
+
+  }
+
+  .star {
+    height: 30px;
+  }
+
+
+}
